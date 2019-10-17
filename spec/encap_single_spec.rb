@@ -22,14 +22,14 @@ describe Binder do
   end
 end
 #
-# describe Binder do
-#   it "get_entry works when unlocked" do
-#     subject.access
-#     subject.add_entry("Testing the diary")
-#     expect(subject.get_entry(0)).to eq "Testing the diary"
-#   end
-# end
-# #
+describe Binder do
+  it "get_entry works when unlocked" do
+    subject.access
+    subject.add_entry("Testing the diary")
+    expect(subject.get_entry(0)).to eq "Testing the diary"
+  end
+end
+#
 # describe SecretDiary do
 #   it "expects errors for add_entry when diary has been unlocked and then locked again" do
 #     diary = SecretDiary.new

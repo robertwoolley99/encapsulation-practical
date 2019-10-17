@@ -18,7 +18,6 @@ end
 def get_entry(x)
   return fail "diary locked" unless @control.lock_status == false
   @content.get_entry(x)
-  return true
 end
 
 end
