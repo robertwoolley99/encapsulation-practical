@@ -1,6 +1,6 @@
 # encapsulation-practical
 
-###Background
+### Background
 
 This is an exercise at Makers to understand Objects and Classes.  There are two elements here.
 
